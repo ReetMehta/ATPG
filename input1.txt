@@ -1,0 +1,8 @@
+inputs: a,b,c
+outputs: h
+fault: h,0
+d = not b
+e = and a,d
+f = and c,d
+g = not f
+h = or e,g

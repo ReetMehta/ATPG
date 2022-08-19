@@ -1,0 +1,5 @@
+inputs: a,b
+outputs: d
+fault: d,1
+c = not a
+d = or b,c

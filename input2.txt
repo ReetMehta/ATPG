@@ -1,0 +1,6 @@
+inputs: a,b,c,d
+outputs: g
+fault: e,0
+e = and a,b
+f = and c,d
+g = or e,f
